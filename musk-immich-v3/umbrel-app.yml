@@ -18,3 +18,8 @@ path: ""
 permissions:
   - GPU
 submitter: Musk
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+icon: icon.svg
