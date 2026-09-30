@@ -19,7 +19,7 @@ permissions:
   - GPU
 submitter: Musk
 gallery:
-  - https://github.com/EloneMusk/umbrel-musk-store/blob/master/musk-immich-v3/1.jpg
-  - https://github.com/EloneMusk/umbrel-musk-store/blob/master/musk-immich-v3/2.jpg
-  - https://github.com/EloneMusk/umbrel-musk-store/blob/master/musk-immich-v3/3.jpg
-icon: https://github.com/EloneMusk/umbrel-musk-store/blob/master/musk-immich-v3/icon.svg
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/immich.png
