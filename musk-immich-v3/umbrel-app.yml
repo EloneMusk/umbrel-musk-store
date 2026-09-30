@@ -1,0 +1,20 @@
+manifestVersion: 1.1
+id: musk-immich-v3
+category: files
+name: Immich V3 OpenVINO
+version: "3.0.0"
+tagline: Photo and video backup with Intel acceleration
+description: >-
+  A separate test installation of Immich v3 using Intel OpenVINO
+  for machine-learning acceleration. This app has its own database
+  and application storage.
+developer: Immich Team
+website: https://immich.app
+repo: https://github.com/immich-app/immich
+support: https://github.com/immich-app/immich/discussions
+dependencies: []
+port: 2283
+path: ""
+permissions:
+  - GPU
+submitter: Musk
