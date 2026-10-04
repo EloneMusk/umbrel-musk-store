@@ -19,7 +19,7 @@ permissions:
   - GPU
 submitter: Musk
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - https://getumbrel.github.io/umbrel-apps-gallery/immich/1.jpg
+  - https://getumbrel.github.io/umbrel-apps-gallery/immich/2.jpg
+  - https://getumbrel.github.io/umbrel-apps-gallery/immich/3.jpg
 icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/immich.png
