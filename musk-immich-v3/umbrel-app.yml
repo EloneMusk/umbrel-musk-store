@@ -1,25 +1,84 @@
 manifestVersion: 1.1
 id: musk-immich-v3
+storage:
+  dataRoot: data
+folderAccess:
+  - id: external-library
+    name: External Library
+    note: Select a folder containing photos or videos, then configure /mnt/external-library as an import path for an External Library in Immich. Access is read-only to protect the original files.
+    mounts:
+      - service: server
+        targetPath: /mnt/external-library
+        readOnly: true
 category: files
-name: Immich V3 OpenVINO
-version: "3.0.0"
-tagline: Photo and video backup with Intel acceleration
+name: Immich
+version: "v3.2.4"
+tagline: High-performance photo and video backup solution
 description: >-
-  A separate test installation of Immich v3 using Intel OpenVINO
-  for machine-learning acceleration. This app has its own database
-  and application storage.
-developer: Immich Team
-website: https://immich.app
+  An open-source and high-performance self-hosted backup solution for the videos and photos on your mobile device
+
+
+  ⚠️ Immich is under very active development. Expect bugs and changes. Do not use it as the only way to store your photos and videos!
+
+
+  Features:
+
+  - Upload and view videos and photos
+
+  - Auto backup when the app is opened
+
+  - Selective album(s) for backup
+
+  - Download photos and videos to a local device
+
+  - Multi-user support
+
+  - Album and Shared albums
+
+  - Scrubbable/draggable scrollbar
+
+  - Support RAW (HEIC, HEIF, DNG, Apple ProRaw)
+
+  - Metadata view (EXIF, map)
+
+  - Search by metadata, objects and image tags
+
+  - Administrative functions (user management)
+
+  - Background backup
+
+  - Virtual scroll
+
+  - OAuth support
+
+  - LivePhoto backup and playback
+
+  - User-defined storage structure
+releaseNotes: >-
+  This update keeps the new umbrelOS storage-management options introduced in the previous package, including optional read-only access to an existing photo or video library.
+
+
+  ⚠️ If you're updating from a pre-v3 version, Immich v3 includes breaking API changes mostly affecting third-party tools. Check that your mobile app and any Immich integrations are compatible with this release; the Immich mobile app no longer supports iOS 14.
+
+
+  Immich v3.2.4 fixes an issue where the mobile sync status page could go blank when sync-count queries fail.
+
+
+  Full release notes can be found at https://github.com/immich-app/immich/releases/tag/v3.2.4
+developer: Alex Tran
+website: https://www.immich.app
+dependencies: []
 repo: https://github.com/immich-app/immich
 support: https://github.com/immich-app/immich/discussions
-dependencies: []
 port: 2283
-path: ""
-permissions:
-  - GPU
-submitter: Musk
 gallery:
   - https://getumbrel.github.io/umbrel-apps-gallery/immich/1.jpg
   - https://getumbrel.github.io/umbrel-apps-gallery/immich/2.jpg
   - https://getumbrel.github.io/umbrel-apps-gallery/immich/3.jpg
 icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/immich.png
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+permissions:
+  - GPU
+submitter: levma
